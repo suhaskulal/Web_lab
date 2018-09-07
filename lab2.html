@@ -1,0 +1,36 @@
+<html>
+	<head>
+	<style>
+	td{
+			    text-align: center;
+				border-color: grey;
+				background-color:white;
+		}
+	th{
+			border:5px solid black;
+			background-color:red;
+			border-width: 2;
+		}
+	table tr td{
+			border:5px solid black;
+			border-spacing: 2px;
+			border-width: 2;
+			padding:10px 10px;
+		}
+			table{
+			width:50%;
+			border-collapse:collapse;
+		}
+		
+	</style>
+</head>
+<body>
+<script>
+document.write("<center> <table> <tr> <th>Number</th><th>Square</th><th>Cube</th></tr>");
+		for(var i=0;i<=10;i++)
+		{
+			document.write("<tr> <td>"+ i +"</td><td>"+ i * i +"</td><td>"+ i * i * i +"</td></tr>");
+		}
+		document.write("</table> </center>");
+</script>
+</body>

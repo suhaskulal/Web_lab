@@ -1,0 +1,45 @@
+<html>
+<head> 
+<title>CALCULATOR</title>
+<style>
+
+</style>
+</head>
+<body>
+<form name="book">
+<table>
+<tr><td  colspan="4"><input type="text" name="display"></input></td>
+</tr>
+<tr>
+<td><input type="button" value="1" onclick="book.display.value +='1'">
+<input type="button" value="2" onclick="book.display.value +='2'">
+<input type="button" value="3" onclick="book.display.value +='3'">
+<input type="button" value="+" onclick="book.display.value +='+'"></td>
+</tr>
+<tr>
+
+<td><input type="button" value="4" onclick="book.display.value +='4'">
+<input type="button" value="5" onclick="book.display.value +='5'">
+<input type="button" value="6" onclick="book.display.value +='6'">
+<input type="button" value="-" onclick="book.display.value +='-'"></td>
+</tr>
+<tr>
+<td>
+<input type="button" value="7" onclick="book.display.value +='7'">
+<input type="button" value="8" onclick="book.display.value +='8'">
+<input type="button" value="9" onclick="book.display.value +='9'">
+<input type="button" value="*" onclick="book.display.value +='*'">
+</td></tr>
+<tr>
+<td>
+<input type="button" value="0" onclick="book.display.value +='0'">
+<input type="reset" value="reset">
+<input type="button" value="=" onclick="book.display.value=eval(book.display.value)">
+<input type="button" value="/" onclick="book.display.value +='/'">
+</td></tr>
+
+
+</table>
+</form> 
+</body>
+
